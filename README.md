@@ -1,2 +1,3 @@
-# react-es6-padawan-to-jedi
-Domine os fundamentos de React com este tutorial à medida que desenvolve uma aplicação usando NPM, Webpack e ES6.
+# React com ES6: de Padawan a Mestre Jedi
+
+Esse repositório tem como objetivo compartilhar arquivos das aulas do curso **React com ES6: de Padawan a Mestre Jedi**. 
