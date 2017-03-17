@@ -1,22 +1,22 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
-   var tableElement = React.createElement('table', {className: 'table-fill'}, 
+   var tableElement = React.createElement('table', null, 
                             React.createElement('thead', null,
                                     React.createElement('tr', null, 
-                                        React.createElement('th', {className: 'text-left'}, 'Mês'),
-                                        React.createElement('th', {className: 'text-left'}, 'Vendas'))),
-                            React.createElement('tbody', {className: 'table-hover'},
+                                        React.createElement('th', null, 'Mês'),
+                                        React.createElement('th', null, 'Vendas'))),
+                            React.createElement('tbody', null,
                                     React.createElement('tr', null, 
-                                        React.createElement('td', {className: 'text-left'}, 'Janeiro'),
-                                        React.createElement('td', {className: 'text-left'}, 'R$ 50.000')),
+                                        React.createElement('td', null, 'Janeiro'),
+                                        React.createElement('td', null, 'R$ 50.000')),
                                     React.createElement('tr', null, 
-                                        React.createElement('td', {className: 'text-left'}, 'Fevereiro'),
-                                        React.createElement('td', {className: 'text-left'}, 'R$ 50.000')),
+                                        React.createElement('td', null, 'Fevereiro'),
+                                        React.createElement('td', null, 'R$ 50.000')),
                                     React.createElement('tr', null, 
-                                        React.createElement('td', {className: 'text-left'}, 'Março'),
-                                        React.createElement('td', {className: 'text-left'}, 'R$ 50.000')),
+                                        React.createElement('td', null, 'Março'),
+                                        React.createElement('td', null, 'R$ 50.000')),
                                     React.createElement('tr', null, 
-                                        React.createElement('td', {className: 'text-left'}, 'Abril'),
-                                        React.createElement('td', {className: 'text-left'}, 'R$ 50.000')))
+                                        React.createElement('td', null, 'Abril'),
+                                        React.createElement('td', null, 'R$ 50.000')))
                                 );
             
     ReactDOM.render(tableElement, document.getElementById('app'));
