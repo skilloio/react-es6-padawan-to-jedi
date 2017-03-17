@@ -13,6 +13,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
                                         React.createElement('td', {className: 'text-left'}, 'R$ 50.000')),
                                     React.createElement('tr', null, 
                                         React.createElement('td', {className: 'text-left'}, 'Março'),
+                                        React.createElement('td', {className: 'text-left'}, 'R$ 50.000')),
+                                    React.createElement('tr', null, 
+                                        React.createElement('td', {className: 'text-left'}, 'Abril'),
                                         React.createElement('td', {className: 'text-left'}, 'R$ 50.000')))
                                 );
             
