@@ -7,23 +7,44 @@
 <body>
     <div id="app"></div>
     <script>
-        var tableElement = React.createElement('table', null, 
-                               React.createElement('tbody', null,
-                                    React.createElement('tr', null, 
-                                        React.createElement('th', null, 'Nome'),
-                                        React.createElement('th', null, 'Sobrenome'),
-                                        React.createElement('th', null, 'Idade')),
-                                    React.createElement('tr', null, 
-                                        React.createElement('th', null, 'Valter'),
-                                        React.createElement('th', null, 'Júnior'),
-                                        React.createElement('th', null, '28')),
-                                    React.createElement('tr', null, 
-                                        React.createElement('th', null, 'Julio'),
-                                        React.createElement('th', null, 'Sampaio'),
-                                        React.createElement('th', null, '28')))
-                            );
-        
-        ReactDOM.render(tableElement, document.getElementById('app'));
+        /*Creating element with string type and props null*/
+        /*var stringElement = React.createElement('div', null, 'Div with text inside!')
+        ReactDOM.render(stringElement, document.getElementById('app'));*/
+
+        /*Creating element with React.createClass type and props null*/
+        /*var classComponent = React.createClass({
+            render: function(){
+                return React.createElement('div', null, 'Div with text inside!');
+            }
+        });
+
+        var componentElement = React.createElement(classComponent)
+        ReactDOM.render(componentElement, document.getElementById('app'));*/
+
+        /*Creating element with string type and props not null*/
+        /*var stringElement = React.createElement('div', {id: 'teste', name: 'teste'}, 'Div with text inside!')
+        ReactDOM.render(stringElement, document.getElementById('app'));*/
+
+        /*Creating element with string type and children null*/
+        /*var stringElement = React.createElement('div')
+        ReactDOM.render(stringElement, document.getElementById('app'));*/
+
+        /*REPETIDO: Creating element with string type and children string*/
+        /*var stringElement = React.createElement('div', null, 'Div with text inside!')
+        ReactDOM.render(stringElement, document.getElementById('app'));*/
+
+        /*Creating element with string type and children React.createClass()*/
+        var classComponent = React.createClass({
+            render: function(){
+                return React.createElement('div', null, 'Div with text inside!');
+            }
+        });
+        //var componentElement = React.createElement('div', null, classComponent);
+        var componentElement = React.createElement('div', null, React.createElement(classComponent));
+        ReactDOM.render(componentElement, document.getElementById('app'));
+
+        /*Creating element with string type and children React.createElement()*/
+
     </script>
 </body>
 </html>
