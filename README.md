@@ -28,6 +28,8 @@ React Components, Elements, and Instances.
 `3-creating-react-nodes\app.html` : Nesse arquivo encontram-se exemplos das diversas formas possíveis de criar componentes com React 
 usando a função `React.createElement`.  
 
+`4-creating-react-nodes-sample\app.html` : Nesse arquivo temos a aplicação do que vimos nas aulas anteriores em um exemplo prático. 
+
 ## Módulo 4 : Javascript Syntax Extension (JSX)    
 
 Nesse módulo ainda não temos arquivos
