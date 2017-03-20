@@ -18,9 +18,15 @@ Nesse módulo ainda não temos arquivos
 
 `class-3.html` : Usando ES6 & ES* com React
 
-## Módulo 3 : React Nodes    
+## Módulo 3 : React Nodes/Elements    
 
-Nesse módulo ainda não temos arquivos
+### Descrição ###
+Nesse módulo iremos aprender o que são React Nodes/Elements e como criá-los. Além disso, vamos ver a diferença entre 
+React Components, Elements, and Instances. 
+
+### Arquivos ###
+`3-creating-react-nodes\app.html` : Nesse arquivo encontram-se exemplos das diversas formas possíveis de criar componentes com React 
+usando a função `React.createElement`.  
 
 ## Módulo 4 : Javascript Syntax Extension (JSX)    
 
