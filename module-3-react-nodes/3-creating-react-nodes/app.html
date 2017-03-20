@@ -34,14 +34,14 @@
         ReactDOM.render(stringElement, document.getElementById('app'));*/
 
         /*Creating element with string type and children React.createClass()*/
-        var classComponent = React.createClass({
+        /*var classComponent = React.createClass({
             render: function(){
                 return React.createElement('div', null, 'Div with text inside!');
             }
         });
         //var componentElement = React.createElement('div', null, classComponent);
         var componentElement = React.createElement('div', null, React.createElement(classComponent));
-        ReactDOM.render(componentElement, document.getElementById('app'));
+        ReactDOM.render(componentElement, document.getElementById('app'));*/
 
         /*Creating element with string type and children React.createElement()*/
 
