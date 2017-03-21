@@ -39,7 +39,16 @@ para transformar estes tokens em ECMAScript padrão.
 
 Vamos entender como usar essa extensão e como ela facilita o noso trabalho. 
 
-### Links Importantes ###
+### Aula 0:Configurando Ambiente ###
+Nessa aula vamos configurar o nosso ambiente para começar a usar JSX sendo compilado pelo Babel, além do ES6. 
+
+### Aula 1:JSX ###
+Nessa aula vamos começar a analisar essa extensão.
+
+### Aula 2:Criando React Nodes/Elements ###
+Nessa aula vamos pegar os exemplos que fizemos no módulo passado e refatorá-los usando JSX e ES6.
+
+### Links Importantes Módulo 4 ###
 [JSX](https://facebook.github.io/jsx/)
 [Webpack](https://webpack.js.org/)
 
