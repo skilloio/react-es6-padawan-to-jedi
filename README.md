@@ -32,12 +32,15 @@ usando a função `React.createElement`.
 
 ## Módulo 4 : Javascript Syntax Extension (JSX)    
 
-Nesse módulo iremos aprender a como criar nossos elementos e componentes usando JSX. O JSX é uma linguagem de programação
-orientada a objetos, de tipo estático, projetada para ser executada em navegadores modernos. Vamos entender como usar essa linguagem
-e como ela facilita o noso trabalho. 
+Nesse módulo iremos aprender a como criar nossos elementos e componentes usando JSX. 
+
+JSX é uma extensão de sintaxe XML-like para ECMAScript sem qualquer semântica definida. Destina-se a ser utilizado por vários pré-processadores (transpilers)
+para transformar estes tokens em ECMAScript padrão.
+
+Vamos entender como usar essa extensão e como ela facilita o noso trabalho. 
 
 ### Links Importantes ###
-[JSX](https://jsx.github.io/)
+[JSX](https://facebook.github.io/jsx/)
 [Webpack](https://webpack.js.org/)
 
 ## Módulo 5 : React Components
