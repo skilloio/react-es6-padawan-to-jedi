@@ -42,11 +42,11 @@ Esta abordagem tem alguns problemas:
 ### Aula 4: Abordagem 2: Utilizar Funções de Atualização do DOM ###
 Você poderia escrever uma função que atualize o DOM adicionando um elemento ao final da lista:
 
-```
+```javascript
 function addItem (itemName) {
-   var node = document.createElement ('li');
+   var node = document.createElement('li');
    node.textContent = itemName;
-   document.querySelector ('ul'). AppendChild (nó);
+   document.querySelector('ul').appendChild(node);
 }
 ```
 
