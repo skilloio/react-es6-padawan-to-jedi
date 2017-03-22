@@ -8,6 +8,10 @@ relacionados com o tema da aula.
 
 ***
 
+<p align="center"><b> Quer aprender mais?</b><br>Visite <a href="http://skillo.io">skillo.io</a> onde temos outros cursos</p>
+
+***
+
 ## Módulo 1 : Introdução
 
 ### Aula 1: Introdução ###
