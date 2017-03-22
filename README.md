@@ -8,27 +8,42 @@ relacionados com o tema da aula.
 
 ## Módulo 1 : Introdução
 
-Nesse módulo ainda não temos arquivos
+### Aula 1: Introdução ###
+React é uma biblioteca popular e por uma boa razão, ela é extremamente útil. Mas quando alguns desenvolvedores consideram aprender 
+React, eles frequentemente acabam enfrentando um problema: Eles não tem muita certeza do que o React é ou problema que ele resolve. 
+
+Essa aula vai ajudar exatamente nesse aspecto. Explicar o problema que o React resolve e como ele resolve. 
+
+### Aula 2: Entendendo o problema ###
+### Aula 3: Abordagem 1: Renderizar Novamente a Lista ###
+### Aula 4: Abordagem 2: Utilizar Funções de Atualização do DOM ###
+### Aula 5: Como o React resolve o problema? ###
+### Aula 6: Semântica do React ###
+### Aula 7: Conclusão ###
 
 ## Módulo 2 : Configuração Básica React/Babel
 
-`class-1.html` : Usando react.js e react-dom.js em uma página HTML
+### Aula 1: React e ReactDOM em uma página HTML ###
+Usando react.js e react-dom.js em uma página HTML
 
-`class-2.html` : Usando JSX via Babel
+### Aula 2: JSX via Babel ###
+Usando JSX via Babel
 
-`class-3.html` : Usando ES6 & ES* com React
+### Aula 3: ES6/React ###
+ Usando ES6 & ES* com React
 
 ## Módulo 3 : React Nodes/Elements    
 
-### Descrição ###
 Nesse módulo iremos aprender o que são React Nodes/Elements e como criá-los. Além disso, vamos ver a diferença entre 
 React Components, Elements, and Instances. 
 
 ### Arquivos ###
-`3-creating-react-nodes\app.html` : Nesse arquivo encontram-se exemplos das diversas formas possíveis de criar componentes com React 
-usando a função `React.createElement`.  
 
-`4-creating-react-nodes-sample\app.html` : Nesse arquivo temos a aplicação do que vimos nas aulas anteriores em um exemplo prático.  
+### Aula 3: Criando React Nodes/Elements ###
+Nessa aula vamos ver diversas formas possíveis de criar componentes com React. 
+
+### Aula 4: Criando React Nodes/Elements - Exemplo prático ###
+Nessa aula iremos aplicar o que vimos até agora em um exemplo prático.   
 
 ## Módulo 4 : Javascript Syntax Extension (JSX)    
 
@@ -39,17 +54,22 @@ para transformar estes tokens em ECMAScript padrão.
 
 Vamos entender como usar essa extensão e como ela facilita o noso trabalho. 
 
-### Aula 0:Configurando Ambiente ###
+### Aula 0: Configurando Ambiente ###
 Nessa aula vamos configurar o nosso ambiente para começar a usar JSX sendo compilado pelo Babel, além do ES6. 
 
-### Aula 1:JSX ###
+### Aula 1: JSX ###
 Nessa aula vamos começar a analisar essa extensão.
 
-### Aula 2:Criando React Nodes/Elements ###
+### Aula 2: Criando React Nodes/Elements ###
 Nessa aula vamos pegar os exemplos que fizemos no módulo passado e refatorá-los usando JSX e ES6.
 
-### Links Importantes Módulo 4 ###
+### Aula 4: Usando Expressões JS no JSX ###
+Nessa aula vamos ver como podemos usar expressões do javascript e executar dentro do JSX. Essa abordagem nos ajuda na prática a 
+renderizar nosso elemento de acordo determinadas condições ou propriedades. 
+
+### Links ###
 [JSX](https://facebook.github.io/jsx/)
+
 [Webpack](https://webpack.js.org/)
 
 ## Módulo 5 : React Components
