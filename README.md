@@ -21,10 +21,51 @@ React, eles frequentemente acabam enfrentando um problema: Eles não tem muita c
 Essa aula vai ajudar exatamente nesse aspecto. Explicar o problema que o React resolve e como ele resolve. 
 
 ### Aula 2: Entendendo o problema ###
+Antes do React (e bibliotecas modernas similares), manter o DOM em sincronia com o seu modelo de dados era doloroso.
+
+Havia geralmente duas abordagens:
+
+1. Renderizar novamente grandes seções do DOM quando seus dados mudam.
+2. Escrever funções que manipulavam o DOM para sincronizar o DOM com seus dados.
+
+Ambas as abordagens tiveram grandes problemas, que você verá como em um exemplo.
+
 ### Aula 3: Abordagem 1: Renderizar Novamente a Lista ###
+Se você usar a abordagem de renderizar o DOM novamente, o navegador terá que destruir e criar muitos elementos.
+Esta abordagem tem alguns problemas:
+
+1. Lento com um grande número de elementos.
+2. Os manipuladores de eventos serão perdidos.
+3. O estado de foco será perdido.
+
+
 ### Aula 4: Abordagem 2: Utilizar Funções de Atualização do DOM ###
+Você poderia escrever uma função que atualize o DOM adicionando um elemento ao final da lista:
+
+```
+function addItem (itemName) {
+   var node = document.createElement ('li');
+   node.textContent = itemName;
+   document.querySelector ('ul'). AppendChild (nó);
+}
+```
+
+Funciona! E é rápido! Mas, à medida que você adiciona recursos, essa abordagem é interrompida. 
+Deseja escrever funções de atualização de DOM para cada um desses cenários?
+
+1. Adicionar item ao topo
+2. Adicionar item ao meio
+3. Remover item
+4. Sort da lista
+5. Checkbox State
+
+Escrever funções de atualização de DOM para cada tipo de alteração de dados rapidamente 
+incha sua base de código e cria maior potencial para erros.
+
 ### Aula 5: Como o React resolve o problema? ###
+
 ### Aula 6: Semântica do React ###
+
 ### Aula 7: Conclusão ###
 
 ***
