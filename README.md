@@ -6,6 +6,8 @@ do projeto que será feito no decorrer das aulas.
 Os arquivos estão divididos por módulos. Cada módulo tem seu próprio contexto e cada aula pode conter um ou mais arquivos 
 relacionados com o tema da aula.
 
+***
+
 ## Módulo 1 : Introdução
 
 ### Aula 1: Introdução ###
@@ -21,6 +23,8 @@ Essa aula vai ajudar exatamente nesse aspecto. Explicar o problema que o React r
 ### Aula 6: Semântica do React ###
 ### Aula 7: Conclusão ###
 
+***
+
 ## Módulo 2 : Configuração Básica React/Babel
 
 ### Aula 1: React e ReactDOM em uma página HTML ###
@@ -31,6 +35,8 @@ Usando JSX via Babel
 
 ### Aula 3: ES6/React ###
  Usando ES6 & ES* com React
+
+***
 
 ## Módulo 3 : React Nodes/Elements    
 
@@ -44,6 +50,8 @@ Nessa aula vamos ver diversas formas possíveis de criar componentes com React.
 
 ### Aula 4: Criando React Nodes/Elements - Exemplo prático ###
 Nessa aula iremos aplicar o que vimos até agora em um exemplo prático.   
+
+***
 
 ## Módulo 4 : Javascript Syntax Extension (JSX)    
 
@@ -72,18 +80,24 @@ renderizar nosso elemento de acordo determinadas condições ou propriedades.
 
 [Webpack](https://webpack.js.org/)
 
+***
+
 ## Módulo 5 : React Components
   
 Nesse módulo ainda não temos arquivos
+
+***
 
 ## Módulo 6 : Propriedades dos Componentes    
 
 Nesse módulo ainda não temos arquivos
 
+***
+
 ## Módulo 7 : Estado dos Componentes
     
 Nesse módulo ainda não temos arquivos
 
-
+***
 
 
